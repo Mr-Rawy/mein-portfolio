@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahmoud | Portfolio</title>
+    <link rel="icon" type="image/svg+xml" href="logo-m.svg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+    
+    <div id="video-intro">
+        <video id="intro-video" src="https://files.catbox.moe/q6uwex.mp4" muted autoplay playsinline></video>
+    </div>
+
+    <video autoplay muted loop playsinline id="video-background">
+    <source src="https://files.catbox.moe/9w2r3w.mp4" type="video/mp4">
+    </video>
+
+
+    <div id="fixed-background"></div>
+
+    <div id="sparkle-container"></div>
+    
+    <header class="header">
+        <div class="profile-main-area">
+            <div class="profile-image-container">
+                <img src="https://i.imgur.com/bvqunN2.jpeg" alt="Mahmoud Mahran" class="profile-image">
+            </div>
+            <h1>Mahmoud Mahran</h1>
+            <p>Bewerbung für eine Ausbildung zum Fachinformatiker</p>
+        </div>
+    </header>
+
+    <main id="main-content" class="container">
+        
+        <div class="buttons-container">
+            <section class="bubble">
+                <button class="action-btn" data-target="personal-data-overlay">
+                    <span class="material-icons">person</span>
+                    Persönliche Daten
+                </button>
+            </section>
+            
+            <section class="bubble">
+                <a href="C.V.pdf" target="_blank" class="download-btn">
+                    <span class="material-icons">download</span>
+                    Lebenslauf als PDF
+                </a>
+            </section>
+            
+            <section class="bubble">
+                <button class="action-btn" data-target="certificates-overlay">
+                    <span class="material-icons">school</span>
+                    Zertifikate
+                </button>
+            </section>
+
+            <section class="bubble">
+                <button class="action-btn" data-target="anschreiben-overlay">
+                    <span class="material-icons">description</span>
+                    Anschreiben
+                </button>
+            </section>
+
+            <section class="bubble kontakt-bubble">
+                <a href="mailto:mahmuudelrawyy@gmail.com" class="action-btn">
+                    <span class="material-icons">mail</span>
+                    Kontaktieren Sie mich
+                </a>
+            </section>
+        </div>
+
+        <section class="skills-section">
+            <h2 class="skills-title text-glow">MEINE FÄHIGKEITEN</h2>
+            <div class="skills-container">
+                <div class="skill-item">
+                    <div class="skill-icon-circle">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <p class="skill-text text-glow">Teamwork</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon-circle">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <p class="skill-text text-glow">Kreativ</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon-circle">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <p class="skill-text text-glow">Problemlösung</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon-circle">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <p class="skill-text text-glow">Python Basics</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon-circle">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <p class="skill-text text-glow">Schnelllerner</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon-circle">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <p class="skill-text text-glow">Analytisches Denken</p>
+                </div>
+            </div>
+        </section>
+
+        <div id="personal-data-overlay" class="overlay">
+            <div class="overlay-content">
+                <button class="close-overlay material-icons">close</button>
+                <h2>Persönliche Daten</h2>
+                <ul class="info-list">
+                    <li><strong>Name:</strong> Mahmoud Mahran</li>
+                    <li><strong>Geburtsdatum:</strong> 28.09.1997</li>
+                    <li><strong>Wohnort:</strong> Krefeld</li>
+                    <li><strong>Qualifikation:</strong> Fachabitur</li>
+                    <li><strong>Sprachen:</strong> Arabisch (Muttersprache), Deutsch (B1), Englisch (C1)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="certificates-overlay" class="overlay">
+            <div class="overlay-content">
+                <button class="close-overlay material-icons">close</button>
+                <h2>Zertifikate</h2>
+                <ul class="certificates-list info-list">
+                    <li>
+                        <a href="Deutsch-B1.pdf" target="_blank" class="certificate-link">
+                            <span class="material-icons">file_download</span>
+                            Zertifikat Deutsch Test
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Integrationskurs.pdf" target="_blank" class="certificate-link">
+                            <span class="material-icons">file_download</span>
+                            Zertifikat Integrationskurs
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Leben in Deutschland.pdf" target="_blank" class="certificate-link">
+                            <span class="material-icons">file_download</span>
+                            Bescheinigung Leben in Deutschland
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Secondary-School.pdf" target="_blank" class="certificate-link">
+                            <span class="material-icons">file_download</span>
+                            Ägyptisches Abitur Zertifikat
+                        </a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+
+        <div id="anschreiben-overlay" class="overlay">
+            <div class="overlay-content"> 
+                <button class="close-overlay material-icons">close</button>
+                <h2>Anschreiben</h2>
+                <p class="anschreiben-text">Sehr geehrte Damen und Herren،</p>
+                <p class="anschreiben-text">mit großem Interesse bewerbe ich mich um eine Ausbildung zum Fachinformatiker. Die Möglichkeit، meine Leidenschaft für Softwareentwicklung und Problemlösungen in einem innovativen Umfeld zu vertiefen، motiviert mich sehr.</p>
+                <p class="anschreiben-text">Meine bisherige berufliche Laufbahn im Bereich Animation und Teamleitung hat mir wertvolle übertragbare Fähigkeiten vermittelt، darunter eine strukturierte Arbeitsweise، Problemlösungskompetenz und effektive Kommunikation. Diese Kompetenzen، verbunden mit meiner ausgeprägten Lernbereitschaft und meiner Affinität für digitale Technologien، sind eine solide Grundlage für die Entwicklung von Softwarelösungen.</p>
+                <p class="anschreiben-text">In den letzten zwei Jahren habe ich mich intensiv mit der Betreuung meines Sohnes gewidmet und parallel meine Deutschkenntnisse erfolgreich bis zum B1-Niveau ausgebaut. Ich bin bestrebt meine Deutschkenntnisse kontinuierlich und bis zum Ausbildungsstart im Jahr 2026 weiter zu verbessern. Meine Englischkenntnisse (C1) bieten mir in einem internationalen Unternehmen zusätzliche Flexibilität und Einsatzmöglichkeiten. Ich freue mich darauf، meine Fähigkeiten in der Softwareentwicklung in Ihrer Ausbildung weiterzuentwickeln und mich aktiv in Ihr Team einzubringen.</p>
+                <p class="anschreiben-text">Über eine Einladung zu einem persönlichen Gespräch، in dem ich meine Motivation und meine Fähigkeiten näher erläutern kann، würde ich mich sehr freuen.</p>
+                <p class="anschreiben-text">Mit freundlichen Grüßen</p>
+                <p class="anschreiben-text">Mahmoud Mahran</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Mahmoud Mahran. Alle Rechte vorbehalten.</p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/mahmoudelrawy" target="_blank" class="social-icon">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram" width="30">
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
